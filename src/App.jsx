@@ -7,7 +7,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const API_KEY = 'YOUR_OPENWEATHERMAP_API_KEY'; // Replace with your actual API key
+  const API_KEY = '2671ae2aa3a131674758d9acfc47bf61'; // User's actual API key
 
   const fetchWeather = async (e) => {
     e.preventDefault();
